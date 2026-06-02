@@ -1,0 +1,117 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-banner: var(--font-banner);
+  --font-hand: var(--font-hand);
+  --font-brush: var(--font-brush);
+}
+
+body {
+  background: #ffffff;
+  color: #1a1a1a;
+  font-family: var(--font-hand), system-ui, sans-serif;
+}
+
+.font-hand   { font-family: var(--font-hand), system-ui, sans-serif; }
+.font-brush  { font-family: var(--font-brush), var(--font-hand), system-ui, sans-serif; }
+.font-banner { font-family: var(--font-banner), var(--font-brush), sans-serif; letter-spacing: 0.03em; }
+
+.pixel-box {
+  border: 4px solid currentColor;
+  box-shadow: 4px 4px 0 currentColor;
+}
+
+.pixel-btn {
+  border: 3px solid currentColor;
+  box-shadow: 3px 3px 0 currentColor;
+  transition: all 0.1s;
+  cursor: pointer;
+}
+
+.pixel-btn:hover {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0 currentColor;
+}
+
+.pixel-btn:active {
+  transform: translate(3px, 3px);
+  box-shadow: none;
+}
+
+.doodle-card {
+  background: #ffffff;
+  border: 3px solid #1a1a1a;
+  border-radius: 18px;
+  box-shadow: 6px 6px 0 #1a1a1a;
+}
+
+.doodle-btn {
+  background: #7CFF4D;
+  color: #1a1a1a;
+  border: 3px solid #1a1a1a;
+  border-radius: 14px;
+  box-shadow: 4px 4px 0 #1a1a1a;
+  transition: transform 0.08s ease, box-shadow 0.08s ease;
+  cursor: pointer;
+  font-family: var(--font-brush), var(--font-hand), system-ui, sans-serif;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.doodle-btn:hover {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0 #1a1a1a;
+}
+
+.doodle-btn:active {
+  transform: translate(4px, 4px);
+  box-shadow: 0 0 0 #1a1a1a;
+}
+
+.doodle-btn.secondary {
+  background: #FFD93D;
+}
+
+.doodle-btn.tertiary {
+  background: #B5E0FF;
+}
+
+.doodle-input {
+  background: #ffffff;
+  border: 3px solid #1a1a1a;
+  border-radius: 12px;
+  box-shadow: 3px 3px 0 #1a1a1a;
+  font-family: var(--font-hand), system-ui, sans-serif;
+  outline: none;
+}
+
+.doodle-input:focus {
+  box-shadow: 5px 5px 0 #7CFF4D;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0; }
+}
+
+.blink { animation: blink 1s step-end infinite; }
+
+@keyframes float {
+  0%, 100% { transform: translateY(0) rotate(var(--rot, 0deg)); }
+  50%       { transform: translateY(-8px) rotate(var(--rot, 0deg)); }
+}
+
+.float { animation: float 3s ease-in-out infinite; }
+
+@keyframes wobble {
+  0%, 100% { transform: rotate(-2deg); }
+  50%       { transform: rotate(2deg); }
+}
+
+.wobble { animation: wobble 2.5s ease-in-out infinite; }
+
+.doodle-scribble {
+  position: absolute;
+  pointer-events: none;
+  opacity: 0.85;
+}

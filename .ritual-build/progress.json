@@ -1,0 +1,69 @@
+{
+  "intent": "build",
+  "project_name": "Ritual Gacha",
+  "path": "Path B (no AI precompiles — static art designed by user)",
+  "features": ["nft-gacha", "discord-snapshot-manual", "frontend"],
+  "current_phase": 1,
+  "phases_completed": ["intent-classified", "projection-spec", "design-decisions"],
+  "next_phase": "install-foundry-then-scaffold-contract",
+  "files_read": [
+    ".claude/skills/ritual-dapp-skills/skills/ritual/SKILL.md",
+    ".claude/skills/ritual-dapp-skills/skills/ritual-dapp-deploy/SKILL.md",
+    ".claude/skills/ritual-dapp-skills/skills/ritual-meta-projection/SKILL.md",
+    ".claude/skills/ritual-dapp-skills/skills/ritual-dapp-overview/SKILL.md",
+    ".claude/skills/ritual-dapp-skills/skills/ritual-dapp-precompiles/SKILL.md",
+    ".claude/skills/ritual-dapp-skills/skills/ritual-dapp-wallet/SKILL.md"
+  ],
+  "design_decisions": {
+    "supply_model": "open editions, infinite supply, every pull is independent weighted random roll, duplicates allowed",
+    "drop_rates": { "common": 55, "rare": 28, "epic": 12, "legendary": 5 },
+    "pull_cost_ritual": 0.0001,
+    "metadata": "skip standard ERC721 metadata for MVP (no marketplace support, render in our own frontend only — can add later)",
+    "backend": "none — one-time manual snapshot JSON of Discord nicknames (no API route, no bot)",
+    "card_art": "user (Zegna) designs all pixel art assets manually — NO LLM/Image precompiles",
+    "randomness": "commit-reveal with future block hash (cheap, no oracle)",
+    "pity_floor": "not yet decided — easier rates may make it unnecessary",
+    "frontend_routes": {
+      "/": "landing — pull button + total minted counter",
+      "/pull": "mint page with reveal animation",
+      "/collection": "user's owned cards grid",
+      "/c/[address]": "any user's public collection",
+      "/cards": "optional all-cards index + global stats"
+    }
+  },
+  "blockers": {
+    "foundry_install": "GitHub release download keeps getting connection-reset at ~19% on Windows. Tried foundryup twice, both stalled mid-download of foundry_v1.7.1_win32_amd64.zip. Need alternative install method tomorrow: Scoop (scoop install foundry), or manual download of the zip from https://github.com/foundry-rs/foundry/releases and extract to ~/.foundry/bin/, or use WSL Ubuntu."
+  },
+  "pending_user_input": [
+    "List of Ritual Discord nicknames grouped by tier (Legendary / Epic / Rare / Common) — needed before scaffolding members.json",
+    "Pull cost confirmation (currently 0.0001 RITUAL)",
+    "Pity floor: keep guaranteed Epic+ every 10 pulls and Legendary every 50, or skip pity entirely since drop rates are already generous?"
+  ],
+  "markers": {
+    "chain_connection": true,
+    "wallet_funded": true,
+    "contract_compiled": true,
+    "contract_deployed": true,
+    "precompile_simulated": false,
+    "precompile_settled": false,
+    "frontend_renders": true,
+    "frontend_connects": false,
+    "e2e_complete": false,
+    "foundry_installed": true
+  },
+  "deployed_contract": {
+    "address": "0x3b6d884e89E37511e1e3B3Ec574b3109Fdd69B16",
+    "chain_id": 1979,
+    "deploy_block": 22052483,
+    "deploy_tx": "0xe0d087e1760fa763afb0820d1da88b9559907d08221b35b6982d663df12fecb2",
+    "setMemberCounts_tx": "0x4f05ae46d73eac8e1bb81af9b742107027bc6aef2d50520bc18cebb03e2365f2",
+    "owner": "0x77B674Ff2F44D0BAE8A4a89A7D11Ea5E303c843c",
+    "member_counts": { "common": 51, "rare": 14, "epic": 7, "legendary": 5 }
+  },
+  "session_artifacts": {
+    "frontend_running_at": "http://localhost:3000",
+    "card_component": "frontend/src/components/Card.tsx",
+    "card_preview_page": "frontend/src/app/cards-preview/page.tsx",
+    "wagmi_chain_config": "frontend/src/lib/config.ts"
+  }
+}
