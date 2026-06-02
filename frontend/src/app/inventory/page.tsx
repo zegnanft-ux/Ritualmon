@@ -2,10 +2,13 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
+import { useAccount } from "wagmi";
 import Card from "@/components/Card";
 import { getInventory, type InventoryEntry } from "@/lib/inventory";
 import WalletButton from "@/components/WalletButton";
 import type { CardTier } from "@/components/Card";
+import { ritual } from "@/lib/config";
 
 const tierLabel: Record<CardTier, string> = {
   secret:    "??? Secret",
@@ -28,11 +31,17 @@ const tierAccent: Record<CardTier, string> = {
 export default function InventoryPage() {
   const [items, setItems] = useState<InventoryEntry[]>([]);
   const [mounted, setMounted] = useState(false);
+  const { isConnected, chain } = useAccount();
+  const router = useRouter();
 
   useEffect(() => {
+    if (!isConnected || chain?.id !== ritual.id) {
+      router.replace("/");
+      return;
+    }
     setMounted(true);
     setItems(getInventory());
-  }, []);
+  }, [isConnected, chain, router]);
 
   const grouped: Record<CardTier, InventoryEntry[]> = {
     secret:    [],
