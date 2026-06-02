@@ -72,6 +72,14 @@ export default function PackPage({ params }: { params: Promise<{ type: string }>
   const [dramaTier, setDramaTier] = useState<CardTier | null>(null);
   const dramaTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
+  useEffect(() => {
+    if (sessionStorage.getItem("paid") !== "1") {
+      router.replace("/");
+    } else {
+      sessionStorage.removeItem("paid");
+    }
+  }, [router]);
+
   const cards: CardData[] = useMemo(
     () => drawPack(packType!),
     // eslint-disable-next-line react-hooks/exhaustive-deps
