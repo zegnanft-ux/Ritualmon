@@ -94,6 +94,7 @@ export default function Card({ card }: { card: CardData }) {
           <img
             src={card.cardImage}
             alt={card.name}
+            loading="lazy"
             style={{
               width: 200,
               height: "auto",

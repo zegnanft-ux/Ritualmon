@@ -1,6 +1,6 @@
 import { defineChain } from "viem";
 import { createConfig, http } from "wagmi";
-import { injected } from "wagmi/connectors";
+import { injected, walletConnect } from "wagmi/connectors";
 
 export const ritual = defineChain({
   id: 1979,
@@ -17,9 +17,14 @@ export const ritual = defineChain({
   },
 });
 
+const projectId = "5592f35429162d774f96fc17fbc0e108";
+
 export const wagmiConfig = createConfig({
   chains: [ritual],
-  connectors: [injected()],
+  connectors: [
+    injected(),
+    walletConnect({ projectId, showQrModal: true }),
+  ],
   transports: { [ritual.id]: http() },
   ssr: true,
 });

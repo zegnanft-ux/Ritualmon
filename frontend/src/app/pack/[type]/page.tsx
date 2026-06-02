@@ -80,16 +80,6 @@ export default function PackPage({ params }: { params: Promise<{ type: string }>
 
   const needsConnect = !isConnected || chain?.id !== ritual.id;
 
-  // Redirect if payment wasn't made via PullButton
-  useEffect(() => {
-    const paid = sessionStorage.getItem("paid-pull");
-    if (!paid) {
-      router.replace("/");
-    } else {
-      sessionStorage.removeItem("paid-pull");
-    }
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
 
   // Card flip reveal sequence
   useEffect(() => {
@@ -129,7 +119,7 @@ export default function PackPage({ params }: { params: Promise<{ type: string }>
   }, [phase, revealedIdx, cards]);
 
   function handlePackClick() {
-    if (phase !== "idle" || needsConnect) return;
+    if (phase !== "idle") return;
     setPhase("ripping");
     setTimeout(() => {
       setRevealedIdx(-1);
@@ -204,12 +194,7 @@ export default function PackPage({ params }: { params: Promise<{ type: string }>
             <BoosterPack ripping={phase === "ripping"} />
           </div>
 
-          {needsConnect ? (
-            <div className="flex flex-col items-center gap-3 doodle-card p-5" style={{ background: "#FFE0E0" }}>
-              <p className="text-[18px]">Connect your wallet on Ritual chain to open.</p>
-              <WalletButton />
-            </div>
-          ) : phase === "idle" ? (
+          {phase === "idle" ? (
             <p className="text-[20px] text-black/50 font-brush">tap to open</p>
           ) : (
             <p className="text-[20px] text-black/50 blink">Opening…</p>

@@ -20,7 +20,6 @@ export default function PullButton() {
 
   useEffect(() => {
     if (isSuccess && hash) {
-      sessionStorage.setItem("paid-pull", hash);
       router.push("/pack/single");
     }
   }, [isSuccess, hash, router]);

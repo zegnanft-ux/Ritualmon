@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import Card from "@/components/Card";
-import { getInventory, seedOwnerCard, type InventoryEntry } from "@/lib/inventory";
+import { getInventory, type InventoryEntry } from "@/lib/inventory";
 import WalletButton from "@/components/WalletButton";
 import type { CardTier } from "@/components/Card";
 
@@ -31,7 +31,6 @@ export default function InventoryPage() {
 
   useEffect(() => {
     setMounted(true);
-    seedOwnerCard();
     setItems(getInventory());
   }, []);
 

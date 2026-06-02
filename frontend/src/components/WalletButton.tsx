@@ -32,16 +32,31 @@ export default function WalletButton() {
 
   // Not connected
   if (!isConnected) {
-    const injectedConnector = connectors.find((c) => c.id === "injected") ?? connectors[0];
+    const injectedConnector = connectors.find((c) => c.id === "injected");
+    const wcConnector = connectors.find((c) => c.id === "walletConnect");
     return (
-      <button
-        onClick={() => injectedConnector && connect({ connector: injectedConnector })}
-        disabled={isConnecting || !injectedConnector}
-        className="doodle-btn px-5 py-2 text-[20px]"
-        style={{ background: "#FFD93D" }}
-      >
-        {isConnecting ? "Connecting…" : "Connect Wallet"}
-      </button>
+      <div className="flex flex-col items-end gap-2">
+        {injectedConnector && (
+          <button
+            onClick={() => connect({ connector: injectedConnector })}
+            disabled={isConnecting}
+            className="doodle-btn px-4 py-2 text-[16px]"
+            style={{ background: "#FFD93D" }}
+          >
+            {isConnecting ? "Connecting…" : "MetaMask"}
+          </button>
+        )}
+        {wcConnector && (
+          <button
+            onClick={() => connect({ connector: wcConnector })}
+            disabled={isConnecting}
+            className="doodle-btn px-4 py-2 text-[16px]"
+            style={{ background: "#B5E0FF" }}
+          >
+            {isConnecting ? "Connecting…" : "WalletConnect"}
+          </button>
+        )}
+      </div>
     );
   }
 

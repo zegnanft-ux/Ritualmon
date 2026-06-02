@@ -30,39 +30,42 @@ export default function Home() {
         />
       </div>
 
-      {/* Built-by watermark — top left */}
-      <div className="absolute top-4 left-4 z-20 flex items-center gap-2">
-        <Image
-          src="/assets/built-by-zegnaeth.png"
-          alt="Built by Zegnaeth"
-          width={2000}
-          height={1414}
-          style={{ width: 110, height: "auto", opacity: 1 }}
-        />
-        <a
-          href="https://x.com/Zegnaeth"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="doodle-btn px-2 py-1"
-          style={{ background: "#ffffff", lineHeight: 1 }}
-          title="Follow ZegnaEth on X"
-        >
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ display: "block" }}>
-            <path d="M4 4L10.5 12.5M10.5 12.5L4 21H7.5L12 15.5M10.5 12.5L20 4H16.5L12 10M12 15.5L16.5 21H20L13.5 12.5M12 15.5L13.5 12.5M12 10L13.5 12.5" stroke="#1a1a1a" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"/>
-          </svg>
-        </a>
-      </div>
+      {/* Top bar */}
+      <div className="relative z-20 w-full flex flex-wrap items-center justify-between gap-2 px-4 pt-4 pb-2">
+        {/* Built-by watermark */}
+        <div className="flex items-center gap-2">
+          <Image
+            src="/assets/built-by-zegnaeth.png"
+            alt="Built by Zegnaeth"
+            width={2000}
+            height={1414}
+            style={{ width: 90, height: "auto", opacity: 1 }}
+          />
+          <a
+            href="https://x.com/Zegnaeth"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="doodle-btn px-2 py-1"
+            style={{ background: "#ffffff", lineHeight: 1 }}
+            title="Follow ZegnaEth on X"
+          >
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ display: "block" }}>
+              <path d="M4 4L10.5 12.5M10.5 12.5L4 21H7.5L12 15.5M10.5 12.5L20 4H16.5L12 10M12 15.5L16.5 21H20L13.5 12.5M12 15.5L13.5 12.5M12 10L13.5 12.5" stroke="#1a1a1a" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"/>
+            </svg>
+          </a>
+        </div>
 
-      {/* top-right wallet */}
-      <div className="absolute top-5 right-5 z-20 flex items-center gap-3">
-        <Link
-          href="/inventory"
-          className="doodle-btn px-4 py-2 text-[18px]"
-          style={{ background: "#ffffff" }}
-        >
-          My Collection
-        </Link>
-        <WalletButton />
+        {/* Wallet + Collection */}
+        <div className="flex items-center gap-2">
+          <Link
+            href="/inventory"
+            className="doodle-btn px-3 py-2 text-[15px]"
+            style={{ background: "#ffffff" }}
+          >
+            My Collection
+          </Link>
+          <WalletButton />
+        </div>
       </div>
 
       {/* scattered doodles */}
