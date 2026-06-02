@@ -100,12 +100,12 @@ export const CARD_POOL: CardData[] = [
 export type PackType = "single" | "small" | "big";
 
 export const DROP_RATES: Record<CardTier, number> = {
-  common:    0.50,
+  common:    0.505,
   rare:      0.33,
   epic:      0.08,
   legendary: 0.05,
   ultramax:  0.025,
-  secret:    0.015,
+  secret:    0.01,
 };
 
 export const PACK_CONFIG: Record<PackType, {
