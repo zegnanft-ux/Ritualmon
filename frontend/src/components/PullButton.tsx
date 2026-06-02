@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useRouter } from "next/navigation";
 import { useAccount, useWriteContract, useWaitForTransactionReceipt } from "wagmi";
 import { ritual } from "@/lib/config";
@@ -32,7 +32,7 @@ export default function PullButton() {
       const txHash = await writeContractAsync({
         address: GACHA_ADDRESS,
         abi: GACHA_ABI,
-        functionName: "commitPull",
+        functionName: "pull",
         value: PULL_COST,
       });
       setHash(txHash);

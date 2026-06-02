@@ -1,19 +1,12 @@
-export const GACHA_ADDRESS = "0x3b6d884e89e37511e1e3b3ec574b3109fdd69b16" as const;
+export const GACHA_ADDRESS = "0x126ce9F1599f2667A4ff3E0EaACcc4c363343fd1" as const;
 
 export const GACHA_ABI = [
   {
     type: "function",
-    name: "commitPull",
+    name: "pull",
     inputs: [],
     outputs: [],
     stateMutability: "payable",
-  },
-  {
-    type: "function",
-    name: "revealPull",
-    inputs: [],
-    outputs: [],
-    stateMutability: "nonpayable",
   },
   {
     type: "function",
