@@ -38,9 +38,7 @@ export const CARD_POOL: CardData[] = [
   { id: 29, name: "Lunabean", role: "Ritty", tier: "rare" as const, power: 66, pfpUrl: "/cards/Rare/1312410379279929349.png", cardImage: "/cards/Rare/1312410379279929349.png" },
   { id: 30, name: "Techies", role: "Ritty", tier: "rare" as const, power: 77, pfpUrl: "/cards/Rare/694379156175192145.png", cardImage: "/cards/Rare/694379156175192145.png" },
   { id: 31, name: "STAR KNIGHT", role: "Ritty", tier: "rare" as const, power: 75, pfpUrl: "/cards/Rare/1320740897557577748.png", cardImage: "/cards/Rare/1320740897557577748.png" },
-  { id: 32, name: "Kippo.G", role: "Ritty", tier: "rare" as const, power: 62, pfpUrl: "/cards/Rare/757232685042368553.png", cardImage: "/cards/Rare/757232685042368553.png" },
   { id: 33, name: "J a e", role: "Ritty", tier: "rare" as const, power: 62, pfpUrl: "/cards/Rare/866598293180907531.png", cardImage: "/cards/Rare/866598293180907531.png" },
-  { id: 34, name: "Batagor", role: "Ritty", tier: "rare" as const, power: 74, pfpUrl: "/cards/Rare/802158561248935967.png", cardImage: "/cards/Rare/802158561248935967.png" },
   { id: 35, name: "Wyrium", role: "Ritty", tier: "rare" as const, power: 87, pfpUrl: "/cards/Rare/1244205446110253159.png", cardImage: "/cards/Rare/1244205446110253159.png" },
   { id: 36, name: "nostalgiagila", role: "Ritty", tier: "rare" as const, power: 64, pfpUrl: "/cards/Rare/889467897787858974.png", cardImage: "/cards/Rare/889467897787858974.png" },
   { id: 37, name: "online", role: "Ritty", tier: "rare" as const, power: 60, pfpUrl: "/cards/Rare/917275641441816607.png", cardImage: "/cards/Rare/917275641441816607.png" },
@@ -48,7 +46,6 @@ export const CARD_POOL: CardData[] = [
   { id: 39, name: "CorleoneOnChain", role: "Ritty", tier: "rare" as const, power: 88, pfpUrl: "/cards/Rare/839533270383460413.png", cardImage: "/cards/Rare/839533270383460413.png" },
   { id: 40, name: "Oscar", role: "Ritty", tier: "rare" as const, power: 76, pfpUrl: "/cards/Rare/933970100669788211.png", cardImage: "/cards/Rare/933970100669788211.png" },
   { id: 41, name: "tutubear", role: "Ritualists", tier: "epic" as const, power: 63, pfpUrl: "/cards/Epic/906225436013527040.png", cardImage: "/cards/Epic/906225436013527040.png" },
-  { id: 42, name: "0xAetherion", role: "Ritty", tier: "rare" as const, power: 66, pfpUrl: "/cards/Rare/923690297475612712.png", cardImage: "/cards/Rare/923690297475612712.png" },
   { id: 43, name: "ASCENO", role: "Ritty", tier: "rare" as const, power: 72, pfpUrl: "/cards/Rare/452868566140715008.png", cardImage: "/cards/Rare/452868566140715008.png" },
   { id: 44, name: "ITACHI", role: "Ritty", tier: "rare" as const, power: 89, pfpUrl: "/cards/Rare/958802281099300937.png", cardImage: "/cards/Rare/958802281099300937.png" },
   { id: 45, name: "JACKOBEE", role: "Ritty", tier: "rare" as const, power: 62, pfpUrl: "/cards/Rare/783327030665936917.png", cardImage: "/cards/Rare/783327030665936917.png" },
@@ -58,6 +55,9 @@ export const CARD_POOL: CardData[] = [
   { id: 49, name: "Rohit", role: "Ritty", tier: "rare" as const, power: 75, pfpUrl: "/cards/Rare/1256149930880405597.png", cardImage: "/cards/Rare/1256149930880405597.png" },
   { id: 50, name: "mici", role: "Ritty", tier: "rare" as const, power: 85, pfpUrl: "/cards/Rare/1338012162991460366.png", cardImage: "/cards/Rare/1338012162991460366.png" },
   { id: 51, name: "hazelll", role: "Ritty", tier: "rare" as const, power: 87, pfpUrl: "/cards/Rare/1337878043418431648.png", cardImage: "/cards/Rare/1337878043418431648.png" },
+  { id: 86, name: "SaintEx", role: "Ritty", tier: "rare" as const, power: 71, pfpUrl: "/cards/Rare/889088865741185084.png", cardImage: "/cards/Rare/889088865741185084.png" },
+  { id: 87, name: "yourinuu", role: "Ritty", tier: "rare" as const, power: 68, pfpUrl: "/cards/Rare/534628279009935379.png", cardImage: "/cards/Rare/534628279009935379.png" },
+  { id: 88, name: "Whuan", role: "Ritty", tier: "rare" as const, power: 65, pfpUrl: "/cards/Rare/775484547806527491.png", cardImage: "/cards/Rare/775484547806527491.png" },
 
   // ── Epic (Ritualists) — real cards ──
   { id: 52, name: "rizan", role: "Ritualists", tier: "epic" as const, power: 120, pfpUrl: "/cards/Epic/381617792329187328.png", cardImage: "/cards/Epic/381617792329187328.png" },
@@ -74,6 +74,10 @@ export const CARD_POOL: CardData[] = [
   { id: 63, name: "LLoyD", role: "Ritualists", tier: "epic" as const, power: 123, pfpUrl: "/cards/Epic/381303199338070021.png", cardImage: "/cards/Epic/381303199338070021.png" },
   { id: 64, name: "1DLE (,)", role: "Ritualists", tier: "epic" as const, power: 132, pfpUrl: "/cards/Epic/959940345876078632.png", cardImage: "/cards/Epic/959940345876078632.png" },
   { id: 65, name: "Oluwasegun", role: "Ritualists", tier: "epic" as const, power: 133, pfpUrl: "/cards/Epic/1132658874235760742.png", cardImage: "/cards/Epic/1132658874235760742.png" },
+  { id: 89, name: "Raka", role: "Ritualists", tier: "epic" as const, power: 118, pfpUrl: "/cards/Epic/311545772438978561.png", cardImage: "/cards/Epic/311545772438978561.png" },
+  { id: 90, name: "Kippo.G", role: "Ritualists", tier: "epic" as const, power: 122, pfpUrl: "/cards/Epic/757232685042368553.png", cardImage: "/cards/Epic/757232685042368553.png" },
+  { id: 91, name: "Batagor", role: "Ritualists", tier: "epic" as const, power: 126, pfpUrl: "/cards/Epic/802158561248935967.png", cardImage: "/cards/Epic/802158561248935967.png" },
+  { id: 92, name: "0xAetherion", role: "Ritualists", tier: "epic" as const, power: 119, pfpUrl: "/cards/Epic/923690297475612712.png", cardImage: "/cards/Epic/923690297475612712.png" },
 
   // ── Legendary (Zealot) — real cards ──
   { id: 66, name: "Eric", role: "Zealot", tier: "legendary" as const, power: 188, pfpUrl: "/cards/Legendary/1119985478997901353.png", cardImage: "/cards/Legendary/1119985478997901353.png" },

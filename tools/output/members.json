@@ -330,6 +330,50 @@
     "note": "olu"
   },
   {
+    "id": "311545772438978561",
+    "username": "rakswp",
+    "global_name": "Raka (❖,❖)",
+    "avatar_hash": "6559259dd85e77f0b66464113b91eae0",
+    "avatar_url": "https://cdn.discordapp.com/avatars/311545772438978561/6559259dd85e77f0b66464113b91eae0.png?size=512",
+    "local_file": "references/Rare/311545772438978561.png",
+    "role": "Ritualists",
+    "tier": "Rare",
+    "note": "Raka"
+  },
+  {
+    "id": "757232685042368553",
+    "username": "kippoxbt",
+    "global_name": "Kippo.G",
+    "avatar_hash": "bf08eec4bfedaaf54001a6bc41eee5fb",
+    "avatar_url": "https://cdn.discordapp.com/avatars/757232685042368553/bf08eec4bfedaaf54001a6bc41eee5fb.png?size=512",
+    "local_file": "references/Rare/757232685042368553.png",
+    "role": "Ritualists",
+    "tier": "Rare",
+    "note": "kippo"
+  },
+  {
+    "id": "802158561248935967",
+    "username": "0xbatagor",
+    "global_name": "Batagor",
+    "avatar_hash": "ade06f8f9b508ea94935cd7b34ea6bee",
+    "avatar_url": "https://cdn.discordapp.com/avatars/802158561248935967/ade06f8f9b508ea94935cd7b34ea6bee.png?size=512",
+    "local_file": "references/Rare/802158561248935967.png",
+    "role": "Ritualists",
+    "tier": "Rare",
+    "note": "batagor"
+  },
+  {
+    "id": "923690297475612712",
+    "username": "aetherion.eth",
+    "global_name": "0xAetherion - sonicfiringz",
+    "avatar_hash": "0888500ede8463136acbe5253596a63f",
+    "avatar_url": "https://cdn.discordapp.com/avatars/923690297475612712/0888500ede8463136acbe5253596a63f.png?size=512",
+    "local_file": "references/Rare/923690297475612712.png",
+    "role": "Ritualists",
+    "tier": "Rare",
+    "note": "aetherion"
+  },
+  {
     "id": "1321487714301776007",
     "username": "0xhammadx",
     "global_name": "!  • 𝐇 𝐀 𝐌 𝐀 𝐃 • ~🥀",
@@ -418,17 +462,6 @@
     "note": "starknight"
   },
   {
-    "id": "757232685042368553",
-    "username": "kippoxbt",
-    "global_name": "Kippo.G",
-    "avatar_hash": "bf08eec4bfedaaf54001a6bc41eee5fb",
-    "avatar_url": "https://cdn.discordapp.com/avatars/757232685042368553/bf08eec4bfedaaf54001a6bc41eee5fb.png?size=512",
-    "local_file": "references/Common/757232685042368553.png",
-    "role": "Ritty",
-    "tier": "Common",
-    "note": "kippo"
-  },
-  {
     "id": "866598293180907531",
     "username": "ms.jaeee",
     "global_name": "J a e",
@@ -438,17 +471,6 @@
     "role": "Ritty",
     "tier": "Common",
     "note": "J"
-  },
-  {
-    "id": "802158561248935967",
-    "username": "0xbatagor",
-    "global_name": "Batagor",
-    "avatar_hash": "7165cfa31457260330b088c5ee9063b9",
-    "avatar_url": "https://cdn.discordapp.com/avatars/802158561248935967/7165cfa31457260330b088c5ee9063b9.png?size=512",
-    "local_file": "references/Common/802158561248935967.png",
-    "role": "Ritty",
-    "tier": "Common",
-    "note": "batagor"
   },
   {
     "id": "1244205446110253159",
@@ -526,17 +548,6 @@
     "role": "Ritty",
     "tier": "Common",
     "note": "tutubear"
-  },
-  {
-    "id": "923690297475612712",
-    "username": "aetherion.eth",
-    "global_name": "0xAetherion - sonicfiringz",
-    "avatar_hash": "0888500ede8463136acbe5253596a63f",
-    "avatar_url": "https://cdn.discordapp.com/avatars/923690297475612712/0888500ede8463136acbe5253596a63f.png?size=512",
-    "local_file": "references/Common/923690297475612712.png",
-    "role": "Ritty",
-    "tier": "Common",
-    "note": "aetherion"
   },
   {
     "id": "452868566140715008",
@@ -636,6 +647,39 @@
     "role": "Ritty",
     "tier": "Common",
     "note": "hazel"
+  },
+  {
+    "id": "889088865741185084",
+    "username": "saintex1",
+    "global_name": "SaintEx✞❖",
+    "avatar_hash": "5ee1691ddb76558b8f877bc231e68208",
+    "avatar_url": "https://cdn.discordapp.com/avatars/889088865741185084/5ee1691ddb76558b8f877bc231e68208.png?size=512",
+    "local_file": "references/Common/889088865741185084.png",
+    "role": "Ritty",
+    "tier": "Common",
+    "note": "Saintex"
+  },
+  {
+    "id": "534628279009935379",
+    "username": "yourinuu",
+    "global_name": "yourinuu",
+    "avatar_hash": "72a278ae6b8a41660b818962c3d08396",
+    "avatar_url": "https://cdn.discordapp.com/avatars/534628279009935379/72a278ae6b8a41660b818962c3d08396.png?size=512",
+    "local_file": "references/Common/534628279009935379.png",
+    "role": "Ritty",
+    "tier": "Common",
+    "note": "Yourinu"
+  },
+  {
+    "id": "775484547806527491",
+    "username": "whuanjg",
+    "global_name": "Whuan",
+    "avatar_hash": "559a5b656b9202af98e1e7e0ae9b0f10",
+    "avatar_url": "https://cdn.discordapp.com/avatars/775484547806527491/559a5b656b9202af98e1e7e0ae9b0f10.png?size=512",
+    "local_file": "references/Common/775484547806527491.png",
+    "role": "Ritty",
+    "tier": "Common",
+    "note": "whuan"
   },
   {
     "id": "891547761177137202",

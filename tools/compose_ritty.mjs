@@ -16,7 +16,7 @@ const NAME_Y   = 2850;
 const FONT_SIZE = 110;
 
 const { width: W, height: H } = await sharp(BORDER).metadata();
-const ritty = MEMBERS.filter(m => m.role === "ritty");
+const ritty = MEMBERS.filter(m => m.role === "Ritty");
 
 console.log(`Compositing ${ritty.length} Ritty members...`);
 
