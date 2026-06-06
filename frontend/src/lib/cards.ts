@@ -79,6 +79,8 @@ export const CARD_POOL: CardData[] = [
   { id: 90, name: "Kippo.G", role: "Ritualists", tier: "epic" as const, power: 122, pfpUrl: "/cards/Epic/757232685042368553.png", cardImage: "/cards/Epic/757232685042368553.png" },
   { id: 91, name: "Batagor", role: "Ritualists", tier: "epic" as const, power: 126, pfpUrl: "/cards/Epic/802158561248935967.png", cardImage: "/cards/Epic/802158561248935967.png" },
   { id: 92, name: "0xAetherion", role: "Ritualists", tier: "epic" as const, power: 119, pfpUrl: "/cards/Epic/923690297475612712.png", cardImage: "/cards/Epic/923690297475612712.png" },
+  { id: 95, name: "shroomskull", role: "Ritualists", tier: "epic" as const, power: 116, pfpUrl: "/cards/Epic/398382848081526796.png", cardImage: "/cards/Epic/398382848081526796.png" },
+  { id: 96, name: "stanelope",   role: "Ritualists", tier: "epic" as const, power: 121, pfpUrl: "/cards/Epic/839158783774032013.png", cardImage: "/cards/Epic/839158783774032013.png" },
 
   // ── Legendary (Zealot) — real cards ──
   { id: 66, name: "Eric", role: "Zealot", tier: "legendary" as const, power: 188, pfpUrl: "/cards/Legendary/1119985478997901353.png", cardImage: "/cards/Legendary/1119985478997901353.png" },
