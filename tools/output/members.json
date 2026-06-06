@@ -418,6 +418,28 @@
     "note": "stan"
   },
   {
+    "id": "743031011234807848",
+    "username": "heatweb3",
+    "global_name": "-Heat🔥| X | Web3",
+    "avatar_hash": "a_453f72d67517ecd5f221056721aa17a9",
+    "avatar_url": "https://cdn.discordapp.com/avatars/743031011234807848/a_453f72d67517ecd5f221056721aa17a9.gif?size=512",
+    "local_file": "references/Common/743031011234807848.gif",
+    "role": "Ritty",
+    "tier": "Common",
+    "note": "heat"
+  },
+  {
+    "id": "1200464545244790835",
+    "username": "snooowflake.",
+    "global_name": "FLAKKYYYY",
+    "avatar_hash": "1551ffb07c541068b1a7205361d148cb",
+    "avatar_url": "https://cdn.discordapp.com/avatars/1200464545244790835/1551ffb07c541068b1a7205361d148cb.png?size=512",
+    "local_file": "references/Common/1200464545244790835.png",
+    "role": "Ritty",
+    "tier": "Common",
+    "note": "flake"
+  },
+  {
     "id": "1321487714301776007",
     "username": "0xhammadx",
     "global_name": "!  • 𝐇 𝐀 𝐌 𝐀 𝐃 • ~🥀",
@@ -946,17 +968,6 @@
     "note": "ares"
   },
   {
-    "id": "743031011234807848",
-    "username": "heatweb3",
-    "global_name": "-Heat🔥| X | Web3",
-    "avatar_hash": "a_453f72d67517ecd5f221056721aa17a9",
-    "avatar_url": "https://cdn.discordapp.com/avatars/743031011234807848/a_453f72d67517ecd5f221056721aa17a9.gif?size=512",
-    "local_file": "references/Common/743031011234807848.gif",
-    "role": "Bitty",
-    "tier": "Common",
-    "note": "heat"
-  },
-  {
     "id": "761513640498954250",
     "username": "yetece2",
     "global_name": "yetece",
@@ -966,17 +977,6 @@
     "role": "Bitty",
     "tier": "Common",
     "note": "yetece"
-  },
-  {
-    "id": "1200464545244790835",
-    "username": "snooowflake.",
-    "global_name": "FLAKKYYYY",
-    "avatar_hash": "1551ffb07c541068b1a7205361d148cb",
-    "avatar_url": "https://cdn.discordapp.com/avatars/1200464545244790835/1551ffb07c541068b1a7205361d148cb.png?size=512",
-    "local_file": "references/Common/1200464545244790835.png",
-    "role": "Bitty",
-    "tier": "Common",
-    "note": "flake"
   },
   {
     "id": "895546410261438476",
