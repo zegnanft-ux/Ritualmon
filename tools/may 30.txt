@@ -1,0 +1,453 @@
+> PolyAss:
+ZSPD CLOB ALERT | 08:00 CST
+28°C: +40.1% (0.4% → 40.5%)\n27°C: +25.0% (11.5% → 36.5%)\n26°C: -79.0% (88.5% → 9.5%)\n
+Run /zspd for full read.
+
+> PolyAss:
+ZSPD | 2026-05-30 | 10:06 CST
+
+SINCE LAST RUN (+1110min)
+Temp: 26°C → 26°C
+Leading CLOB: 77.1% → 42.5%
+Last verdict: SKIP — 26°C
+
+METAR (last 6)
+08:00 = 25°C | dew 14 | 330°4kt | CAVOK | wx —
+08:30 = 26°C | dew 12 | 350°4kt | CAVOK | wx —
+09:00 = 26°C | dew 10 | 10°6kt | CAVOK | wx —
+09:30 = 26°C | dew 11 | 40°6kt | CAVOK | wx —
+10:00 = 26°C | dew 10 | 20°8kt | CAVOK | wx —
+
+TAF TX: 28°C — warm
+
+CLOB
+28°C = 42.5% (N/A)
+27°C = 35.5% (N/A)
+29°C = 20.0% (N/A)
+26°C = 2.9% (N/A)
+30°C = 2.4% (N/A)
+
+Temp View: UNCLEAR — Temperature has been flat at 26°C since 08:30 with light winds, but no distinct ceiling mechanism has formed.
+
+Gate 1: FAIL — 28°C at 42.5% is below 55%. Verdict must be WATCH or SKIP — never TRADE.
+
+VERDICT
+WATCH — 28°C bucket
+The temperature has stalled at 26°C for three consecutive METAR reports, making further progress uncertain at this hour.
+Market confidence in the 28°C bucket is currently below the 55% threshold, requiring more evidence of heating before considering a position.
+
+> PolyAss:
+ZSPD | 2026-05-30 | 10:30 CST
+
+SINCE LAST RUN (+24min)
+Temp: 26°C → 26°C
+Leading CLOB: 42.5% → 42.5%
+Last verdict: WATCH — 28°C bucket
+
+METAR (last 5)
+08:00 = 25°C | dew 14 | 330°4kt | CAVOK | wx —
+08:30 = 26°C | dew 12 | 350°4kt | CAVOK | wx —
+09:00 = 26°C | dew 10 | 10°6kt | CAVOK | wx —
+09:30 = 26°C | dew 11 | 40°6kt | CAVOK | wx —
+10:00 = 26°C | dew 10 | 20°8kt | CAVOK | wx —
+
+TAF TX: 28°C — warm
+
+CLOB
+28°C = 42.5% (N/A)
+27°C = 24.5% (▼11.0%)
+29°C = 15.5% (▼4.5%)
+30°C = 3.3% (▲0.9%)
+26°C = 3.1% (▲0.2%)
+
+Temp View: UNCLEAR — Temperature has remained at 26°C for four consecutive reports with no clear ceiling mechanism identified.
+
+Gate 1: FAIL — 28°C at 42.5% is below 55%. Verdict must be WATCH or SKIP — never TRADE.
+
+VERDICT
+WATCH — 28°C bucket
+The temperature remains stalled at 26°C, showing no active climb through this window.
+Market sentiment is shifting away from the 27°C and 29°C buckets, contributing to a lack of clear direction.
+
+> PolyAss:
+ZSPD | 2026-05-30 | 10:36 CST
+
+SINCE LAST RUN (+6min)
+Temp: 26°C → 27°C
+Leading CLOB: 42.5% → 48.5%
+Last verdict: WATCH — 28°C bucket
+
+METAR (last 6)
+08:00 = 25°C | dew 14 | 330°4kt | CAVOK | wx —
+08:30 = 26°C | dew 12 | 350°4kt | CAVOK | wx —
+09:00 = 26°C | dew 10 | 10°6kt | CAVOK | wx —
+09:30 = 26°C | dew 11 | 40°6kt | CAVOK | wx —
+10:00 = 26°C | dew 10 | 20°8kt | CAVOK | wx —
+10:30 = 27°C | dew 8 | 50°8kt | CAVOK | wx —
+
+TAF TX: 28°C — warm
+
+CLOB
+28°C = 48.5% (▲6.0%)
+27°C = 33.5% (▲9.0%)
+29°C = 15.0% (▼0.5%)
+30°C = 3.1% (▼0.2%)
+26°C = 0.9% (▼2.2%)
+
+Temp View: BUILDING — Temperature rose 1°C in the last reading, continuing an active climb after a prolonged plateau.
+
+Gate 1: FAIL — 28°C at 48.5% is below 55%. Verdict must be WATCH or SKIP — never TRADE.
+
+VERDICT
+WATCH — 28°C bucket
+Temperature finally broke the 26°C plateau in the last METAR reading, confirming active building.
+CLOB prices are repricing upward towards 28°C, but Gate 1 remains below the threshold for entry.
+
+> PolyAss:
+ZSPD | 2026-05-30 | 11:05 CST
+
+SINCE LAST RUN (+29min)
+Temp: 27°C → 27°C
+Leading CLOB: 48.5% → 46.5%
+Last verdict: WATCH — 28°C bucket
+
+METAR (last 6)
+08:30 = 26°C | dew 12 | 350°4kt | CAVOK | wx —
+09:00 = 26°C | dew 10 | 10°6kt | CAVOK | wx —
+09:30 = 26°C | dew 11 | 40°6kt | CAVOK | wx —
+10:00 = 26°C | dew 10 | 20°8kt | CAVOK | wx —
+10:30 = 27°C | dew 8 | 50°8kt | CAVOK | wx —
+11:00 = 27°C | dew 11 | 40°8kt | CAVOK | wx —
+
+TAF TX: 28°C — warm
+
+CLOB
+28°C = 46.5% (▼2.0%)
+27°C = 38.0% (▲4.5%)
+29°C = 14.0% (▼1.0%)
+30°C = 2.4% (▼0.7%)
+31°C = 0.7% (N/A)
+
+Temp View: BUILDING — Temperature is still actively climbing. No ceiling mechanism visible.
+
+Gate 1: FAIL — 28°C at 46.5% is below 55%. Verdict must be WATCH or SKIP — never TRADE.
+
+VERDICT
+WATCH — 28°C bucket
+Temperature remains stagnant at 27°C since the last METAR reading, suggesting a temporary plateau despite clear skies.
+Market sentiment is weakening for the 28°C bucket, down 2% since 10:36 while 27°C has gained 4.5%.
+
+> PolyAss:
+ZSPD | 2026-05-30 | 11:38 CST
+
+SINCE LAST RUN (+33min)
+Temp: 27°C → 27°C
+Leading CLOB: 46.5% → 57.5%
+Last verdict: WATCH — 28°C bucket
+
+METAR (last 6)
+09:00 = 26°C | dew 10 | 10°6kt | CAVOK | wx —
+09:30 = 26°C | dew 11 | 40°6kt | CAVOK | wx —
+10:00 = 26°C | dew 10 | 20°8kt | CAVOK | wx —
+10:30 = 27°C | dew 8 | 50°8kt | CAVOK | wx —
+11:00 = 27°C | dew 11 | 40°6kt | CAVOK | wx —
+11:30 = 27°C | dew 11 | 40°6kt | CAVOK | wx —
+
+TAF TX: 28°C — warm
+
+CLOB
+28°C = 57.5% (▲11.0%)
+27°C = 29.5% (▼8.5%)
+29°C = 14.0% (N/A)
+30°C = 2.0% (▼0.4%)
+31°C = 0.7% (N/A)
+
+Temp View: UNCLEAR — Temp has stalled at 27°C for three consecutive readings since 10:30 with no clear physical ceiling mechanism.
+
+Gate 1: PASS — 28°C at 57.5% is in the 55-70% range.
+
+VERDICT
+WATCH — 28°C bucket
+Market has rotated significant capital into the 28°C bucket since the 11:05 run, rising 11%.
+Weather continues to show a persistent flat-top at 27°C since 10:30, requiring higher temperature confirmation before entering.
+
+> PolyAss:
+ZSPD | 2026-05-30 | 12:05 CST
+
+SINCE LAST RUN (+27min)
+Temp: 27°C → 27°C
+Leading CLOB: 57.5% → 59.5%
+Last verdict: WATCH — 28°C bucket
+
+METAR (last 6)
+09:30 = 26°C | dew 11 | wind 40°6kt | sky CAVOK | wx —
+10:00 = 26°C | dew 10 | wind 20°8kt | sky CAVOK | wx —
+10:30 = 27°C | dew 8 | wind 50°8kt | sky CAVOK | wx —
+11:00 = 27°C | dew 11 | wind 40°8kt | sky CAVOK | wx —
+11:30 = 27°C | dew 11 | wind 40°6kt | sky CAVOK | wx —
+12:00 = 27°C | dew 10 | wind 90°6kt | sky CAVOK | wx —
+
+TAF TX: 28°C — warm
+
+CLOB
+28°C = 59.5% (▲2.0%)
+29°C = 19.0% (▲5.0%)
+27°C = 9.5% (▼20.0%)
+30°C = 2.8% (▲0.8%)
+31°C = 0.8% (▲0.1%)
+
+Temp View: DONE — the shift in wind direction to 90° at 12:00 with sustained cooling suggests an incipient sea breeze interaction.
+
+Gate 1: PASS — 28°C at 59.5% is in the 55-70% range.
+
+VERDICT
+WATCH — 28°C bucket
+The 27°C bucket has collapsed by 20% while the 28°C bucket continues to absorb capital, confirming the market trajectory despite stagnant temperatures.
+The appearance of a 90° easterly wind component at 12:00 introduces a ceiling risk, justifying caution despite the attractive price.
+
+> PolyAss:
+ZSPD CLOB ALERT | 12:16 CST
+27°C: +15.0% (11.5% → 26.5%)\n
+Run /zspd for full read.
+
+> PolyAss:
+ZSPD | 2026-05-30 | 12:36 CST
+
+SINCE LAST RUN (+31min)
+Temp: 27°C → 28°C
+Leading CLOB: 59.5% → 75.0%
+Last verdict: WATCH — 28°C bucket
+
+METAR (last 6)
+10:00 = 26°C | dew 10 | wind 20°8kt | sky CAVOK | wx —
+10:30 = 27°C | dew 8 | wind 50°8kt | sky CAVOK | wx —
+11:00 = 27°C | dew 11 | wind 40°8kt | sky CAVOK | wx —
+11:30 = 27°C | dew 11 | wind 40°6kt | sky CAVOK | wx —
+12:00 = 27°C | dew 10 | wind 90°6kt | sky CAVOK | wx —
+12:30 = 28°C | dew 12 | wind 70°6kt | sky CAVOK | wx —
+
+TAF TX: 28°C — warm
+
+CLOB
+28°C = 75.0% (▲15.5%)
+29°C = 15.0% (▼4.0%)
+27°C = 2.5% (▼7.0%)
+30°C = 1.9% (▼0.9%)
+31°C = 0.7% (▼0.1%)
+
+Temp View: BUILDING — Temperature rose to 28°C in the latest reading, continuing the climb after a period of stagnation at 27°C.
+
+Gate 1: FAIL — 28°C at 75.0% is above 70%. Verdict must be WATCH or SKIP — never TRADE.
+
+VERDICT
+SKIP — 28°C bucket
+Gate 1 shows the 28°C bucket has exceeded the 70% threshold, closing the entry window.
+Temperatures finally broke to 28°C at 12:30, but the market has already aggressively priced this move.
+
+> PolyAss:
+ZSPD CLOB ALERT | 12:36 CST
+27°C: -19.0% (21.5% → 2.5%)\n
+Run /zspd for full read.
+
+> PolyAss:
+ZSPD | 2026-05-30 | 13:06 CST
+
+SINCE LAST RUN (+30min)
+Temp: 28°C → 27°C
+Leading CLOB: 75.0% → 80.0%
+Last verdict: SKIP — 28°C bucket
+
+METAR (last 6)
+11:00 = 27°C | dew 11 | 40°8kt | CAVOK | wx —
+11:30 = 27°C | dew 11 | 40°6kt | CAVOK | wx —
+12:00 = 27°C | dew 10 | 90°6kt | CAVOK | wx —
+12:30 = 28°C | dew 12 | 70°6kt | CAVOK | wx —
+13:00 = 27°C | dew 11 | 60°6kt | CAVOK | wx —
+
+TAF TX: 28°C — warm
+
+CLOB
+28°C = 80.0% (▲5.0%)
+29°C = 19.5% (▲4.5%)
+30°C = 1.8% (▼0.1%)
+31°C = 0.6% (▼0.1%)
+32°C = 0.3% (▼0.4%)
+
+Temp View: DONE — dip-recover from 28°C at 12:30 back to 27°C indicates peak moisture/thermal ceiling.
+
+Gate 1: FAIL — 28°C at 80.0% is above 70%. Verdict must be WATCH or SKIP — never TRADE.
+
+VERDICT
+SKIP — 28°C bucket
+The 28°C bucket is priced at 80.0%, well beyond the manageable 70% entry threshold.
+Temperature dropped 1°C from 12:30 to 13:00, confirming the market correctly priced the peak at 28°C.
+
+> PolyAss:
+ZSPD | 2026-05-30 | 13:36 CST
+
+SINCE LAST RUN (+30min)
+Temp: 27°C → 27°C
+Leading CLOB: 80.0% → 90.5%
+Last verdict: SKIP — 28°C bucket
+
+METAR (last 6)
+11:00 = 27°C | dew 11 | 40°8kt | CAVOK | wx —
+11:30 = 27°C | dew 11 | 40°6kt | CAVOK | wx —
+12:00 = 27°C | dew 10 | 90°6kt | CAVOK | wx —
+12:30 = 28°C | dew 12 | 70°6kt | CAVOK | wx —
+13:00 = 27°C | dew 11 | 60°6kt | CAVOK | wx —
+13:30 = 27°C | dew 11 | 80°6kt | CAVOK | wx —
+
+TAF TX: 28°C — warm
+
+CLOB
+28°C = 90.5% (▲10.5)
+29°C = 7.5% (▼12.0)
+30°C = 0.6% (▼1.2)
+31°C = 0.3% (▼0.3)
+27°C = 0.1% (N/A)
+
+Temp View: DONE — temp has been flat at 27°C across 13:00 and 13:30 readings following a peak of 28°C at 12:30.
+
+Gate 1: FAIL — 28°C at 90.5% is above 70%. Verdict must be WATCH or SKIP — never TRADE.
+
+VERDICT
+SKIP — 28°C bucket
+The 28°C bucket has moved to 90.5%, well past the 70% entry threshold.
+With the temperature holding at 27°C after the previous 28°C spike, no clear upward momentum remains to justify further positions.
+
+> PolyAss:
+ZSPD | 2026-05-30 | 14:06 CST
+
+SINCE LAST RUN (+30min)
+Temp: 27°C → 28°C
+Leading CLOB: 90.5% → 80.0%
+Last verdict: SKIP — 28°C
+
+METAR (last 6)
+11:30 = 27°C | dew 11 | 40°6kt | CAVOK | wx —
+12:00 = 27°C | dew 10 | 90°6kt | CAVOK | wx —
+12:30 = 28°C | dew 12 | 70°6kt | CAVOK | wx —
+13:00 = 27°C | dew 11 | 60°6kt | CAVOK | wx —
+13:30 = 27°C | dew 11 | 80°6kt | CAVOK | wx —
+14:00 = 28°C | dew 12 | 80°8kt | CAVOK —
+
+TAF TX: 28°C — warm
+
+CLOB
+28°C = 80.0% (▼10.5%)
+29°C = 11.5% (▲4.0%)
+30°C = 0.4% (▼0.2%)
+31°C = 0.3% (N/A)
+27°C = 0.2% (▲0.1%)
+
+Temp View: DONE — the temperature has reached the TAF forecast peak of 28°C and is fluctuating around it after a dip-recover cycle.
+
+Gate 1: FAIL — 28°C at 80.0% is above 70%. Verdict must be WATCH or SKIP — never TRADE.
+
+VERDICT
+SKIP — 28°C
+The 28°C bucket remains above the 70% threshold, closing the entry window.
+Market sentiment reflects the TAF forecast of 28°C, and despite a recent temperature recovery to 28°C, no mispricing is present.
+
+> PolyAss:
+ZSPD | 2026-05-30 | 14:36 CST
+
+SINCE LAST RUN (+30min)
+Temp: 28°C → 28°C
+Leading CLOB: 80.0% → 89.5%
+Last verdict: SKIP — 28°C
+
+METAR (last 6)
+12:00 = 27°C | dew 10 | 90°6kt | CAVOK | wx —
+12:30 = 28°C | dew 12 | 70°6kt | CAVOK | wx —
+13:00 = 27°C | dew 11 | 60°6kt | CAVOK | wx —
+13:30 = 27°C | dew 11 | 80°6kt | CAVOK | wx —
+14:00 = 28°C | dew 12 | 80°8kt | CAVOK | wx —
+14:30 = 28°C | dew 12 | 70°6kt | CAVOK | wx —
+
+TAF TX: 28°C — warm
+
+CLOB
+28°C = 89.5% (▲9.5%)
+29°C = 10.0% (▼1.5%)
+30°C = 0.4% (N/A)
+27°C = 0.2% (N/A)
+24°C or below = 0.1% (N/A)
+
+Temp View: DONE — the temperature has fluctuated between 27°C and 28°C for the last 90 minutes while winds remain steady.
+
+Gate 1: FAIL — 28°C at 89.5% is above 70%. Verdict must be WATCH or SKIP — never TRADE.
+
+VERDICT
+SKIP — 28°C
+The 28°C bucket is priced at 89.5%, exceeding the 70% threshold and effectively closing the window for new positions.
+METAR data shows the temperature stalling at 28°C since 14:00, confirming a flat-top near the daily expected maximum.
+
+> PolyAss:
+ZSPD | 2026-05-30 | 15:05 CST
+
+SINCE LAST RUN (+29min)
+Temp: 28°C → 27°C
+Leading CLOB: 89.5% → 92.0%
+Last verdict: SKIP — 28°C
+
+METAR (last 6)
+12:30 = 28°C | dew 12 | 70°6kt | CAVOK | wx —
+13:00 = 27°C | dew 11 | 60°6kt | CAVOK | wx —
+13:30 = 27°C | dew 11 | 80°6kt | CAVOK | wx —
+14:00 = 28°C | dew 12 | 80°8kt | CAVOK | wx —
+14:30 = 28°C | dew 12 | 70°6kt | CAVOK | wx —
+15:00 = 27°C | dew 10 | 90°8kt | CAVOK | wx —
+
+TAF TX: 28°C — warm
+
+CLOB
+28°C = 92.0% (▲2.5%)
+29°C = 8.0% (▼2.0%)
+30°C = 0.3% (▼0.1%)
+27°C = 0.3% (▲0.1%)
+24°C or below = 0.1% (flat)
+
+Temp View: DONE — Temperature dipped from 28°C to 27°C since the last report, indicating the peak heating window has passed.
+
+Gate 1: FAIL — 28°C at 92.0% is above 70%. Verdict must be WATCH or SKIP — never TRADE.
+
+VERDICT
+SKIP — 28°C
+The 28°C bucket is priced at 92.0%, significantly exceeding the 70% threshold, which closes the window for new positions.
+Temperature has declined to 27°C at 15:00, confirming the peak heating effort has ended.
+
+> PolyAss:
+ZSPD | 2026-05-30 | 15:35 CST
+
+SINCE LAST RUN (+30min)
+Temp: 27°C → 27°C
+Leading CLOB: 92.0% → 98.0%
+Last verdict: SKIP — 28°C
+
+METAR (last 6)
+13:00 = 27°C | dew 11 | 60°6kt | CAVOK | wx —
+13:30 = 27°C | dew 11 | 80°6kt | CAVOK | wx —
+14:00 = 28°C | dew 12 | 80°8kt | CAVOK | wx —
+14:30 = 28°C | dew 12 | 70°6kt | CAVOK | wx —
+15:00 = 27°C | dew 10 | 90°8kt | CAVOK | wx —
+15:30 = 27°C | dew 11 | 100°8kt | CAVOK | wx —
+
+TAF TX: 28°C — warm
+
+CLOB
+28°C = 98.0% (+6.0%)
+29°C = 0.9% (-7.1%)
+30°C = 0.1% (-0.2%)
+24°C or below = 0.1% (N/A)
+25°C = 0.1% (N/A)
+
+Temp View: DONE — Temperature dipped from 28°C to 27°C after 14:30, signaling an end to the peak heat.
+
+Gate 1: FAIL — 28°C at 98.0% is above 70%. Verdict must be WATCH or SKIP — never TRADE.
+
+VERDICT
+SKIP — 28°C
+The 28°C bucket is priced at 98.0%, exceeding the 70% threshold and closing the entry window.
+Physical peak clearly occurred at 14:00/14:30 with current temperatures holding at 27°C.

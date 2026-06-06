@@ -176,6 +176,17 @@
     "note": "topa"
   },
   {
+    "id": "911532105480151080",
+    "username": "el__khalil",
+    "global_name": "El-Khalīl",
+    "avatar_hash": "0caad08a8e301d138642466e446b1a30",
+    "avatar_url": "https://cdn.discordapp.com/avatars/911532105480151080/0caad08a8e301d138642466e446b1a30.png?size=512",
+    "local_file": "references/Epic/911532105480151080.png",
+    "role": "Zealot/ Radiant Ritualist",
+    "tier": "Epic",
+    "note": "Khalil"
+  },
+  {
     "id": "381617792329187328",
     "username": "rizannn",
     "global_name": "rizan",
@@ -372,6 +383,39 @@
     "role": "Ritualists",
     "tier": "Rare",
     "note": "aetherion"
+  },
+  {
+    "id": "398382848081526796",
+    "username": "shroomskull",
+    "global_name": "shroomskull",
+    "avatar_hash": "d44a608a805bc7051affa6b8659a0dbb",
+    "avatar_url": "https://cdn.discordapp.com/avatars/398382848081526796/d44a608a805bc7051affa6b8659a0dbb.png?size=512",
+    "local_file": "references/Rare/398382848081526796.png",
+    "role": "Ritualists",
+    "tier": "Rare",
+    "note": "shroom"
+  },
+  {
+    "id": "910542223114919976",
+    "username": "willox3227",
+    "global_name": "willox (❖,❖)",
+    "avatar_hash": "51c8191614655b21f1b01deca7bfe97c",
+    "avatar_url": "https://cdn.discordapp.com/avatars/910542223114919976/51c8191614655b21f1b01deca7bfe97c.png?size=512",
+    "local_file": "references/Rare/910542223114919976.png",
+    "role": "Ritualists",
+    "tier": "Rare",
+    "note": "willox"
+  },
+  {
+    "id": "839158783774032013",
+    "username": "stanelope",
+    "global_name": "stanelope",
+    "avatar_hash": "04f88dad01303d31a86d681da784fcb5",
+    "avatar_url": "https://cdn.discordapp.com/avatars/839158783774032013/04f88dad01303d31a86d681da784fcb5.png?size=512",
+    "local_file": "references/Rare/839158783774032013.png",
+    "role": "Ritualists",
+    "tier": "Rare",
+    "note": "stan"
   },
   {
     "id": "1321487714301776007",
@@ -966,5 +1010,16 @@
     "role": "Bitty",
     "tier": "Common",
     "note": "jeya"
+  },
+  {
+    "id": "999354202499321907",
+    "username": "pemburuhadiah_",
+    "global_name": "Skyzee",
+    "avatar_hash": "c13035d297970e6b01be86319199cc17",
+    "avatar_url": "https://cdn.discordapp.com/avatars/999354202499321907/c13035d297970e6b01be86319199cc17.png?size=512",
+    "local_file": "references/Common/999354202499321907.png",
+    "role": "Bitty",
+    "tier": "Common",
+    "note": "skyzee"
   }
 ]

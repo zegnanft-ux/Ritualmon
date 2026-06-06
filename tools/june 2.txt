@@ -1,0 +1,451 @@
+> PolyAss:
+ZSPD CLOB ALERT | 08:00 CST
+30°C: +38.4% (0.1% → 38.5%)\n29°C: +28.0% (2.5% → 30.5%)\n28°C: -92.0% (97.5% → 5.5%)\n
+Run /zspd for full read.
+
+> PolyAss:
+ZSPD | 2026-06-02 | 10:07 CST
+
+SINCE LAST RUN (+1040min)
+Temp: 28°C → 29°C
+Leading CLOB: 99.6% → 39.5%
+Last verdict: SKIP — 28°C
+
+METAR (last 6)
+08:00 = 27°C | dew 21 | 280°4kt | FEW | wx —
+08:30 = 27°C | dew 21 | VRB°4kt | FEW | wx —
+09:00 = 28°C | dew 21 | VRB°4kt | CAVOK | wx —
+09:30 = 29°C | dew 22 | VRB°2kt | CAVOK | wx —
+10:00 = 29°C | dew 22 | 20°8kt | CAVOK | wx —
+
+TAF TX: 29°C — warm
+
+CLOB
+30°C = 39.5% (N/A)
+31°C = 35.5% (N/A)
+32°C = 10.3% (N/A)
+29°C = 6.5% (+6.1%)
+33°C or higher = 4.6% (N/A)
+
+Temp View: BUILDING — Temperature rose 2°C since 08:00 and is currently increasing at 1°C per hour without any ceiling mechanism.
+
+Gate 1: FAIL — 30°C at 39.5% is below 55%. Verdict must be WATCH or SKIP — never TRADE.
+
+VERDICT
+WATCH — 30°C
+Current temperature is 29°C with no signs of ceiling formation, suggesting a push toward 30°C is likely.
+Gate 1 is below the 55% threshold, requiring a wait for higher market conviction before entering.
+The recent shift to 20°8kt winds at 10:00 warrants monitoring for potential cooling effects later.
+
+> PolyAss:
+ZSPD | 2026-06-02 | 10:30 CST
+
+SINCE LAST RUN (+23min)
+Temp: 29°C → 29°C
+Leading CLOB: 39.5% → 40.5%
+Last verdict: WATCH — 30°C
+
+METAR (last 6)
+08:00 = 27°C | dew 21 | wind 280°4kt | sky FEW | wx —
+08:30 = 27°C | dew 21 | wind VRB°4kt | sky FEW | wx —
+09:00 = 28°C | dew 21 | wind VRB°4kt | sky CAVOK | wx —
+09:30 = 29°C | dew 22 | wind VRB°2kt | sky CAVOK | wx —
+10:00 = 29°C | dew 22 | wind 20°8kt | sky CAVOK | wx —
+
+TAF TX: 29°C — warm
+
+CLOB
+30°C = 40.5% (▲1.0%)
+31°C = 35.7% (▲0.2%)
+32°C = 9.5% (▼0.8%)
+29°C = 7.5% (▲1.0%)
+33°C or higher = 3.3% (▼1.3%)
+
+Temp View: BUILDING — Temperature is actively climbing with no ceiling mechanism visible despite the stabilization at 29°C.
+
+Gate 1: FAIL — 30°C at 40.5% is below 55%. Verdict must be WATCH or SKIP — never TRADE.
+
+VERDICT
+WATCH — 30°C
+Current temperature 29°C is unchanged since 09:30, and the CLOB 30°C bucket saw only a minor 1% increase over 23 minutes.
+The wind shifted to 20°8kt at 10:00, but no cooling mechanism or cloud cover has developed yet to cap the building heat.
+
+> PolyAss:
+ZSPD | 2026-06-02 | 10:37 CST
+
+SINCE LAST RUN (+7min)
+Temp: 29°C → 30°C
+Leading CLOB: 40.5% → 42.5%
+Last verdict: WATCH — 30°C
+
+METAR (last 6)
+08:00 = 27°C | dew 21 | wind 280°4kt | sky FEW | wx —
+08:30 = 27°C | dew 21 | wind VRB°4kt | sky FEW | wx —
+09:00 = 28°C | dew 21 | wind VRB°4kt | sky CAVOK | wx —
+09:30 = 29°C | dew 22 | wind VRB°2kt | sky CAVOK | wx —
+10:00 = 29°C | dew 22 | wind 20°8kt | sky CAVOK | wx —
+10:30 = 30°C | dew 22 | wind 50°8kt | sky CAVOK | wx —
+
+TAF TX: 29°C — warm
+
+CLOB
+30°C = 42.5% (▲2.0%)
+31°C = 36.6% (▲0.9%)
+32°C = 9.4% (▼0.1%)
+33°C or higher = 3.3% (N/A)
+29°C = 2.5% (▼5.0%)
+
+Temp View: BUILDING — Temperature rose 1°C in the last 30 minutes with no ceiling mechanism visible.
+
+Gate 1: FAIL — 30°C at 42.5% is below 55%. Verdict must be WATCH or SKIP — never TRADE.
+
+VERDICT
+WATCH — 30°C
+Temperature actively climbed to 30°C in the last 30 minutes matching the current leading bucket.
+CLOB is pricing the 30°C and 31°C buckets tightly, but Gate 1 remains below the required 55% threshold.
+Prior belief remains cautious given TAF under-forecast and Gate 1 failure.
+
+> PolyAss:
+ZSPD | 2026-06-02 | 11:06 CST
+
+SINCE LAST RUN (+29min)
+Temp: 30°C → 30°C
+Leading CLOB: 30°C/42.5% → 31°C/46.7%
+Last verdict: WATCH — 30°C
+
+METAR (last 6)
+08:30 = 27°C | dew 21 | wind VRB 4kt | sky FEW | wx —
+09:00 = 28°C | dew 21 | wind VRB 4kt | sky CAVOK | wx —
+09:30 = 29°C | dew 22 | wind VRB 2kt | sky CAVOK | wx —
+10:00 = 29°C | dew 22 | wind 20 8kt | sky CAVOK | wx —
+10:30 = 30°C | dew 22 | wind 50 8kt | sky CAVOK | wx —
+11:00 = 30°C | dew 22 | wind 50 8kt | sky CAVOK | wx —
+
+TAF TX: 29°C — warm
+
+CLOB
+31°C = 46.7% (▲10.1%)
+30°C = 33.0% (▼9.5%)
+32°C = 17.8% (▲8.4%)
+33°C or higher = 3.4% (▲0.1%)
+29°C = 0.1% (▼2.4%)
+
+Temp View: BUILDING — Temperature is still actively climbing as the 31°C bucket has become the market favorite despite the 30°C ceiling observation.
+
+Gate 1: FAIL — 31°C at 46.7% is below 55%. Verdict must be WATCH or SKIP — never TRADE.
+
+VERDICT
+WATCH — 31°C
+Despite reaching 30°C, the temperature remains stubbornly flat at 11:00 with no clear physical ceiling mechanism yet identified.
+The market is aggressively repricing toward 31°C, showing a significant shift in dominant bucket confidence since 10:37.
+Awaiting movement or sustained plateau to confirm trajectory before further action.
+
+> PolyAss:
+ZSPD | 2026-06-02 | 11:38 CST
+
+SINCE LAST RUN (+32min)
+Temp: 30°C → 30°C
+Leading CLOB: 46.7% → 52.4%
+Last verdict: WATCH — 31°C
+
+METAR (last 6)
+09:00 = 28°C | dew 21 | wind VRB4 | sky CAVOK | wx —
+09:30 = 29°C | dew 22 | wind VRB2 | sky CAVOK | wx —
+10:00 = 29°C | dew 22 | wind 20@8 | sky CAVOK | wx —
+10:30 = 30°C | dew 22 | wind 50@8 | sky CAVOK | wx —
+11:00 = 30°C | dew 22 | wind 50@8 | sky CAVOK | wx —
+11:30 = 30°C | dew 22 | wind 30@10 | sky CAVOK | wx —
+
+TAF TX: 29°C — warm
+
+CLOB
+31°C = 52.4% (▲5.7%)
+30°C = 32.5% (▼0.5%)
+32°C = 10.9% (▼6.9%)
+33°C or higher = 2.4% (▼1.0%)
+29°C = 0.1% (N/A)
+
+Temp View: UNCLEAR — Temperature has remained 30°C since 10:30 with no clear physical ceiling mechanism despite the wind shift and freshening.
+
+Gate 1: FAIL — 31°C at 52.4% is below 55%. Verdict must be WATCH or SKIP — never TRADE.
+
+VERDICT
+WATCH — 31°C bucket
+The temperature has been locked at 30°C for three consecutive readings, indicating a potential stall.
+While the 31°C bucket price increased to 52.4%, it remains below the required Gate 1 threshold for an edge.
+
+> PolyAss:
+ZSPD | 2026-06-02 | 12:06 CST
+
+SINCE LAST RUN (+28min)
+Temp: 30°C → 31°C
+Leading CLOB: 52.4% → 58.7%
+Last verdict: WATCH — 31°C bucket
+
+METAR (last 6)
+09:30 = 29°C | dew 22 | wind VRB2kt | sky CAVOK | wx —
+10:00 = 29°C | dew 22 | wind 20@8kt | sky CAVOK | wx —
+10:30 = 30°C | dew 22 | wind 50@8kt | sky CAVOK | wx —
+11:00 = 30°C | dew 22 | wind 50@8kt | sky CAVOK | wx —
+11:30 = 30°C | dew 22 | wind 30@10kt | sky CAVOK | wx —
+12:00 = 31°C | dew 20 | wind 30@10kt | sky CAVOK | wx —
+
+TAF TX: 32°C — hot
+
+CLOB
+31°C = 58.7% (+6.3%)
+30°C = 20.5% (-12.0%)
+32°C = 12.7% (+1.8%)
+33°C or higher = 2.4% (N/A)
+28°C = 0.1% (N/A)
+
+Temp View: BUILDING — Temperature broke the 30°C plateau with a 1°C climb in the last thirty minutes and no ceiling signals visible.
+
+Gate 1: PASS — 31°C at 58.7% is in the 55-70% range.
+
+VERDICT
+WATCH — 31°C bucket
+The temperature successfully broke the 30°C stall seen in the previous run.
+Although Gate 1 passed, the temperature is currently BUILDING, requiring a wait to confirm if the 31°C peak is sustained or will continue to climb toward the 32°C TAF target.
+
+> PolyAss:
+ZSPD CLOB ALERT | 12:13 CST
+31°C: +16.1% (58.7% → 74.8%)\n30°C: -17.5% (20.5% → 3.0%)\n
+Run /zspd for full read.
+
+> PolyAss:
+ZSPD | 2026-06-02 | 12:36 CST
+
+SINCE LAST RUN (+30min)
+Temp: 31°C → 31°C
+Leading CLOB: 58.7% → 57.1%
+Last verdict: WATCH — 31°C bucket
+
+METAR (last 6)
+10:00 = 29°C | dew 22 | 20°8kt | sky CAVOK | wx —
+10:30 = 30°C | dew 22 | 50°8kt | sky CAVOK | wx —
+11:00 = 30°C | dew 22 | 50°8kt | sky CAVOK | wx —
+11:30 = 30°C | dew 22 | 30°10kt | sky CAVOK | wx —
+12:00 = 31°C | dew 20 | 30°10kt | sky CAVOK | wx —
+12:30 = 31°C | dew 20 | 40°10kt | sky CAVOK | wx —
+
+TAF TX: 32°C — hot
+
+CLOB
+31°C = 57.1% (▼1.6%)
+32°C = 40.0% (▲27.3%)
+33°C or higher = 2.5% (▲0.1%)
+30°C = 0.5% (▼20.0%)
+26°C = 0.1% (N/A)
+
+Temp View: DONE — Temperature has held steady at 31°C for two consecutive readings and the dew point has dropped to 20°C.
+
+Gate 1: PASS — 31°C at 57.1% is in the 55-70% range.
+
+VERDICT
+TRADE — 31°C at 57.1%
+The 31°C bucket has held flat for two consecutive METAR observations despite TAF indicating a potential for 32°C.
+The 32°C bucket has seen massive buyer interest, rising 27.3% since the last run, suggesting the market is testing the higher bound.
+With the temperature stalling and the dew point dropping, the current 31°C reading is likely the peak.
+
+> PolyAss:
+ZSPD | 2026-06-02 | 13:07 CST
+
+SINCE LAST RUN (+31min)
+Temp: 31°C → 31°C
+Leading CLOB: 57.1% → 71.2%
+Last verdict: TRADE — 31°C
+
+METAR (last 6)
+11:30 = 30°C | dew 22 | 30°10kt | sky | wx
+12:00 = 31°C | dew 20 | 30°10kt | sky | wx
+12:30 = 31°C | dew 20 | 40°10kt | sky | wx
+13:00 = 31°C | dew 21 | 40°8kt | sky | wx
+N/A
+N/A
+
+TAF TX: 32°C — hot
+
+CLOB
+31°C = 71.2% (▲14.1%)
+32°C = 27.5% (▼12.5%)
+33°C or higher = 2.3% (▼0.2%)
+26°C = 0.1% (N/A)
+27°C = 0.1% (N/A)
+
+Temp View: DONE — A persistent flat-top pattern at 31°C is confirmed across the last three METAR observations (12:00, 12:30, 13:00).
+
+Gate 1: FAIL — 31°C at 71.2% is above 70%. Verdict must be WATCH or SKIP — never TRADE.
+
+VERDICT
+SKIP — 31°C bucket at 71.2% is above the 70% threshold, closing the trade window.
+The market has heavily front-run the peak, leaving no edge for new positions at this price level.
+Despite being at 31°C for three consecutive readings, the price action suggests the market is already fully priced for the likely maximum.
+
+> PolyAss:
+ZSPD | 2026-06-02 | 13:37 CST
+
+SINCE LAST RUN (+30min)
+Temp: 31°C → 31°C
+Leading CLOB: 71.2% → 78.3%
+Last verdict: SKIP — 31°C
+
+METAR (last 6)
+12:00 = 31°C | dew 20 | 30°10kt | CAVOK | wx —
+12:30 = 31°C | dew 20 | 40°10kt | CAVOK | wx —
+13:00 = 31°C | dew 21 | 40°8kt | CAVOK | wx —
+13:30 = 31°C | dew 20 | 70°10kt | CAVOK | wx —
+
+TAF TX: 32°C — hot
+
+CLOB
+31°C = 78.3% (▲7.1%)
+32°C = 27.2% (▼0.3%)
+33°C or higher = 1.8% (▼0.5%)
+26°C = 0.1% (N/A)
+27°C = 0.1% (N/A)
+
+Temp View: DONE — Temp has flat-lined at 31°C for four consecutive readings indicating a ceiling despite the 32°C TAF forecast.
+
+Gate 1: FAIL — 31°C at 78.3% is above 70%. Verdict must be WATCH or SKIP — never TRADE.
+
+VERDICT
+SKIP — 31°C
+The 31°C bucket has risen to 78.3%, well past the 70% threshold, closing the trade window entirely.
+The persistent 31°C readings since 12:00 coupled with the wind backing from 30° to 70° suggest stable conditions, confirming the market correctly priced the ceiling.
+
+> PolyAss:
+ZSPD | 2026-06-02 | 14:08 CST
+
+SINCE LAST RUN (+31min)
+Temp: 31°C → 29°C
+Leading CLOB: 78.3% → 93.5%
+Last verdict: SKIP — 31°C
+
+METAR (last 6)
+12:00 = 31°C | dew 20 | 30°10kt | CAVOK | wx —
+12:30 = 31°C | dew 20 | 40°10kt | CAVOK | wx —
+13:00 = 31°C | dew 21 | 40°8kt | CAVOK | wx —
+13:30 = 31°C | dew 20 | 70°10kt | CAVOK | wx —
+14:00 = 29°C | dew 22 | 100°10kt | CAVOK | wx —
+
+TAF TX: 32°C — hot
+
+CLOB
+31°C = 93.5% (▲15.2%)
+32°C = 5.6% (▼21.6%)
+33°C or higher = 0.3% (▼1.5%)
+26°C = 0.1% (N/A)
+27°C = 0.1% (N/A)
+
+Temp View: DONE — Sea breeze confirmed: wind shifted from 70° at 13:30 to 100° at 14:00 with a concurrent 2°C temperature drop.
+
+Gate 1: FAIL — 31°C at 93.5% is above 70%. Verdict must be WATCH or SKIP — never TRADE.
+
+VERDICT
+SKIP — 31°C
+The 31°C bucket has moved to 93.5%, firmly closing the window as it is now vastly overpriced.
+METAR shows a clear sea breeze effect with the wind shifting to 100° and temperatures dropping to 29°C, confirming the peak has passed.
+
+> PolyAss:
+ZSPD | 2026-06-02 | 14:35 CST
+
+SINCE LAST RUN (+27min)
+Temp: 29°C → 28°C
+Leading CLOB: 93.5% → 99.1%
+Last verdict: SKIP — 31°C
+
+METAR (last 6)
+12:00 = 31°C | dew 20 | 30°10kt | CAVOK | wx —
+12:30 = 31°C | dew 20 | 40°10kt | CAVOK | wx —
+13:00 = 31°C | dew 21 | 40°8kt | CAVOK | wx —
+13:30 = 31°C | dew 20 | 70°10kt | CAVOK | wx —
+14:00 = 29°C | dew 22 | 100°10kt | CAVOK | wx —
+14:30 = 28°C | dew 23 | 110°10kt | CAVOK | wx —
+
+TAF TX: 32°C — hot
+
+CLOB
+31°C = 99.1% (▲5.6%)
+32°C = 1.1% (▼4.5%)
+33°C or higher = 0.1% (▼0.2%)
+26°C = 0.1% (N/A)
+27°C = 0.1% (N/A)
+
+Temp View: DONE — Temperature has dropped 3°C from the 31°C peak observed between 12:00 and 13:30.
+
+Gate 1: FAIL — 31°C at 99.1% is above 70%. Verdict must be WATCH or SKIP — never TRADE.
+
+VERDICT
+SKIP — 31°C
+The window closed long ago as the leading bucket is priced at 99.1%, indicating the market is fully committed to this outcome.
+Temperature is actively trending downward from the observed peak, confirming the heating phase is complete.
+
+> PolyAss:
+ZSPD | 2026-06-02 | 15:05 CST
+
+SINCE LAST RUN (+30min)
+Temp: 28°C → 29°C
+Leading CLOB: 99.1% → 99.3%
+Last verdict: SKIP — 31°C
+
+METAR (last 6)
+12:30 = 31°C | dew 20 | 40°10kt | CAVOK | wx —
+13:00 = 31°C | dew 21 | 40°8kt | CAVOK | wx —
+13:30 = 31°C | dew 20 | 70°10kt | CAVOK | wx —
+14:00 = 29°C | dew 22 | 100°10kt | CAVOK | wx —
+14:30 = 28°C | dew 23 | 110°10kt | CAVOK | wx —
+15:00 = 29°C | dew 22 | 100°10kt | CAVOK | wx —
+
+TAF TX: 32°C — hot
+
+CLOB
+31°C = 99.3% (+0.2%)
+32°C = 1.1% (N/A)
+33°C or higher = 0.1% (N/A)
+26°C = 0.1% (N/A)
+27°C = 0.1% (N/A)
+
+Temp View: DONE — Sea breeze confirmed by sustained wind shift from 70° to 100°+ and corresponding rise in dew point to 22-23°C suppressing further heating.
+
+Gate 1: FAIL — 31°C at 99.3% is above 70%. Verdict must be WATCH or SKIP — never TRADE.
+
+VERDICT
+SKIP — 31°C
+The 31°C bucket is priced at 99.3%, indicating the market has fully locked in this outcome.
+Sea breeze has been established since 14:00, effectively capping the temperature well below the TAF prediction.
+The opportunity window for entry closed long ago.
+
+> PolyAss:
+ZSPD | 2026-06-02 | 15:36 CST
+
+SINCE LAST RUN (+31min)
+Temp: 29°C → 28°C
+Leading CLOB: 99.3% → 99.6%
+Last verdict: SKIP — 31°C
+
+METAR (last 6)
+13:00 = 31°C | dew 21 | 40°8kt | CAVOK | wx —
+13:30 = 31°C | dew 20 | 70°10kt | CAVOK | wx —
+14:00 = 29°C | dew 22 | 100°10kt | CAVOK | wx —
+14:30 = 28°C | dew 23 | 110°10kt | CAVOK | wx —
+15:00 = 29°C | dew 22 | 100°10kt | CAVOK | wx —
+15:30 = 28°C | dew 22 | 110°10kt | CAVOK | wx —
+
+TAF TX: 32°C — hot
+
+CLOB
+31°C = 99.6% (▲0.3%)
+32°C = 0.3% (▼0.8%)
+26°C = 0.1% (N/A)
+27°C = 0.1% (N/A)
+28°C = 0.1% (N/A)
+
+Temp View: DONE — Sea breeze confirmed by sustained wind from 100-110° and associated dew point rise causing cooling since 13:30.
+
+Gate 1: FAIL — 31°C at 99.6% is above 70%. Verdict must be WATCH or SKIP — never TRADE.
+
+VERDICT
+SKIP — 31°C
+The 31°C bucket is locked at 99.6%, effectively closing the market window.
+The current temperature has trended down to 28°C under a steady sea breeze, confirming the peak heating window has passed.
