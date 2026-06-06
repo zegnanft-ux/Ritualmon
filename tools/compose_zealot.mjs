@@ -16,7 +16,7 @@ const NAME_Y    = 2850;
 const FONT_SIZE = 110;
 
 const { width: W, height: H } = await sharp(BORDER).metadata();
-const zealots = MEMBERS.filter(m => m.role === "Zealot");
+const zealots = MEMBERS.filter(m => m.role === "Zealot" || m.role === "Zealot/ Radiant Ritualist");
 
 fs.mkdirSync(OUT_DIR, { recursive: true });
 console.log(`Compositing ${zealots.length} Zealot members...`);
