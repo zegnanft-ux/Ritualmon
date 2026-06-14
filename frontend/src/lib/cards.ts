@@ -59,6 +59,7 @@ export const CARD_POOL: CardData[] = [
   { id: 86, name: "SaintEx", role: "Ritty", tier: "rare" as const, power: 71, pfpUrl: "/cards/Rare/889088865741185084.png", cardImage: "/cards/Rare/889088865741185084.png" },
   { id: 87, name: "yourinuu", role: "Ritty", tier: "rare" as const, power: 68, pfpUrl: "/cards/Rare/534628279009935379.png", cardImage: "/cards/Rare/534628279009935379.png" },
   { id: 88, name: "Whuan", role: "Ritty", tier: "rare" as const, power: 65, pfpUrl: "/cards/Rare/775484547806527491.png", cardImage: "/cards/Rare/775484547806527491.png" },
+  { id: 101, name: "samir", role: "Ritty", tier: "rare" as const, power: 70, pfpUrl: "/cards/Rare/907622732068429824.png", cardImage: "/cards/Rare/907622732068429824.png" },
 
   // ── Epic (Ritualists) — real cards ──
   { id: 52, name: "rizan", role: "Ritualists", tier: "epic" as const, power: 120, pfpUrl: "/cards/Epic/381617792329187328.png", cardImage: "/cards/Epic/381617792329187328.png" },
@@ -84,6 +85,8 @@ export const CARD_POOL: CardData[] = [
   { id: 97, name: "willox (,)",    role: "Ritualists", tier: "epic" as const, power: 118, pfpUrl: "/cards/Epic/910542223114919976.png", cardImage: "/cards/Epic/910542223114919976.png" },
   { id: 95, name: "shroomskull", role: "Ritualists", tier: "epic" as const, power: 116, pfpUrl: "/cards/Epic/398382848081526796.png", cardImage: "/cards/Epic/398382848081526796.png" },
   { id: 96, name: "stanelope",   role: "Ritualists", tier: "epic" as const, power: 121, pfpUrl: "/cards/Epic/839158783774032013.png", cardImage: "/cards/Epic/839158783774032013.png" },
+  { id: 98, name: "orph",        role: "Ritualists", tier: "epic" as const, power: 124, pfpUrl: "/cards/Epic/307749245040066561.png", cardImage: "/cards/Epic/307749245040066561.png" },
+  { id: 99, name: "moctx",       role: "Ritualists", tier: "epic" as const, power: 127, pfpUrl: "/cards/Epic/961866881915043880.png", cardImage: "/cards/Epic/961866881915043880.png" },
 
   // ── Legendary (Zealot) — real cards ──
   { id: 66, name: "Eric", role: "Zealot", tier: "legendary" as const, power: 188, pfpUrl: "/cards/Legendary/1119985478997901353.png", cardImage: "/cards/Legendary/1119985478997901353.png" },
@@ -94,6 +97,7 @@ export const CARD_POOL: CardData[] = [
   { id: 71, name: "Thomas (,)", role: "Zealot", tier: "legendary" as const, power: 196, pfpUrl: "/cards/Legendary/297078811210809345.png", cardImage: "/cards/Legendary/297078811210809345.png" },
   { id: 72, name: "UCANSEE", role: "Zealot", tier: "legendary" as const, power: 192, pfpUrl: "/cards/Legendary/921892700029059143.png", cardImage: "/cards/Legendary/921892700029059143.png" },
   { id: 93, name: "El-Khalīl", role: "Zealot", tier: "legendary" as const, power: 187, pfpUrl: "/cards/Legendary/911532105480151080.png", cardImage: "/cards/Legendary/911532105480151080.png" },
+  { id: 100, name: "keith", role: "Zealot", tier: "legendary" as const, power: 189, pfpUrl: "/cards/Legendary/830514313956818975.png", cardImage: "/cards/Legendary/830514313956818975.png" },
 
   // ── UltraMax (Team / Mods) — real cards ──
   { id: 73, name: "Josh | Ritual", role: "Foundation Team", tier: "ultramax" as const, power: 995, pfpUrl: "/cards/UltraMax/1211782420643455047.png", cardImage: "/cards/UltraMax/1211782420643455047.png" },

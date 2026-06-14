@@ -187,6 +187,17 @@
     "note": "Khalil"
   },
   {
+    "id": "830514313956818975",
+    "username": "keithbm",
+    "global_name": "Keithbm",
+    "avatar_hash": "7062a735966ed128332bbc69a8ca2f67",
+    "avatar_url": "https://cdn.discordapp.com/avatars/830514313956818975/7062a735966ed128332bbc69a8ca2f67.png?size=512",
+    "local_file": "references/Epic/830514313956818975.png",
+    "role": "Zealot/ Radiant Ritualist",
+    "tier": "Epic",
+    "note": "keith"
+  },
+  {
     "id": "381617792329187328",
     "username": "rizannn",
     "global_name": "rizan",
@@ -416,6 +427,28 @@
     "role": "Ritualists",
     "tier": "Rare",
     "note": "stan"
+  },
+  {
+    "id": "307749245040066561",
+    "username": "orpheuzkaze",
+    "global_name": "OrpheuzKaze",
+    "avatar_hash": "b067005f629b9e6dd81e9ec386e45572",
+    "avatar_url": "https://cdn.discordapp.com/avatars/307749245040066561/b067005f629b9e6dd81e9ec386e45572.png?size=512",
+    "local_file": "references/Rare/307749245040066561.png",
+    "role": "Ritualists",
+    "tier": "Rare",
+    "note": "orph"
+  },
+  {
+    "id": "961866881915043880",
+    "username": "moctx0099",
+    "global_name": "moctx",
+    "avatar_hash": "088041243875520c9c035b8df72ec29d",
+    "avatar_url": "https://cdn.discordapp.com/avatars/961866881915043880/088041243875520c9c035b8df72ec29d.png?size=512",
+    "local_file": "references/Rare/961866881915043880.png",
+    "role": "Ritualists",
+    "tier": "Rare",
+    "note": "moctx"
   },
   {
     "id": "743031011234807848",
@@ -746,6 +779,17 @@
     "role": "Ritty",
     "tier": "Common",
     "note": "whuan"
+  },
+  {
+    "id": "907622732068429824",
+    "username": "samir02118",
+    "global_name": "SAMIR",
+    "avatar_hash": "b8af9373fb8015217217f7a9e65f936b",
+    "avatar_url": "https://cdn.discordapp.com/avatars/907622732068429824/b8af9373fb8015217217f7a9e65f936b.png?size=512",
+    "local_file": "references/Common/907622732068429824.png",
+    "role": "Ritty",
+    "tier": "Common",
+    "note": "samir"
   },
   {
     "id": "891547761177137202",
